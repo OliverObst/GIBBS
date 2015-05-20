@@ -1,0 +1,21 @@
+/*!
+ * logplay CSS
+ *
+ * Copyright 2012, Edward Moore, Oliver Obst, Mikhail Prokopenko, Peter Wang
+ *
+ */
+
+	
+*{ margin: 0px 0px 0px 0px; padding: 0px 0px 0px 0px; }
+#field{ background: url('images/field.jpg') no-repeat top left; display: block; }
+#Lteam, #cycles, #Rteam { display: inline-block; height: 22px; padding-top: 4px; text-align: center; vertical-align: sub; }
+#Lteam, #Rteam { width: 200px; }
+#cycles { width: 392px; }
+#Lteam { background: yellow; }
+#Rteam { background: red; }
+#controls { width: 800px; height: 15px; }
+#buttons { width: 800px; height: 15px; list-style-type: disc;}
+#game { width: 820px; display: block; margin-top: 10px; }
+#controls #buttons div { height: 20px; width: 20px; display: block-inline; float: left; }
+#controls #buttons li span { margin: 0px 0px 0px 0px; }
+#controls #cyclesSlider { margin-left: 10px; display: inline-block; width: 610px; margin-top: -11px; }
